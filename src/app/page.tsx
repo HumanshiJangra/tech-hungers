@@ -3,6 +3,7 @@ import Link from 'next/link';
 import * as React from 'react';
 import laptop from '@/assets/images/laptop.jpg'
 import Image from 'next/image';
+import Contact from './components/Contact';
 
 
 export default function Home() {
@@ -38,8 +39,8 @@ export default function Home() {
         {service.map((item, index) => (
           <div key={index} className='text-center '>
             
-            <Image src={item.image} alt={item.title} width={300} height={200} className='mx-auto'/>
-            <h3 className='text-2xl color-blue '>{item.title}</h3>
+            <Image src={item.image} alt={item.title} width={300} height={200} className='mx-auto '/>
+            <h3 className='text-2xl color-blue mt-5 mb-2'>{item.title}</h3>
             <p className='text-[#222222] max-w-[220px] mx-auto '>{item.subtitle}</p>
           </div>
         ))}
@@ -59,6 +60,9 @@ export default function Home() {
       ))}
     </div>
         </div>
+      </div>
+      <div className='pb-[80px] '>
+       <Contact/>
       </div>
     </div>
   );
