@@ -8,6 +8,7 @@ import Marquee from "react-fast-marquee";
 import FAQ from "./components/FAQ";
 import Services from "./components/Services";
 import Technologies from "./components/Technologies";
+import Industries from "./components/Industries";
 
 
 export default function Home() {
@@ -68,6 +69,7 @@ export default function Home() {
       </div>
     <Technologies/>
     <Services/>
+    <Industries/>
     <FAQ/>
     <Contact />
     </div>
