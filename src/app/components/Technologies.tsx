@@ -5,7 +5,7 @@ import Image
 const Technologies = () => {
   const technology = [
     {id: 1, image: '/assets/HTML.png', title: "HTML"},
-    {id: 2, image: '/assets/Css.png', title: "CSS"},
+    {id: 2, image: '/assets/CSS.png', title: "CSS"},
     {id: 3, image: '/assets/JS.png', title: "JS"},
     {id: 4, image: '/assets/React-icon.png', title: "ReactJS"},
     {id: 5, image: '/assets/Next.png', title: "Next js"},
