@@ -53,9 +53,9 @@ const FAQ: React.FC = () => {
         <h2 className='heading-h2 text-center mb-3 md:mb-10'>Frequently Asked Questions</h2>
       </div>
       <div className="">
-        <div className="md:pr-[55px]">
+        <div className="">
           {faqData.map((dropdown, index) => (
-            <div className='md:mb-[10px] mb-3' key={index}>
+            <div className={`md:mb-[10px] mb-3 bg-[#d4dee7] rounded-[20px] ${dropdownStates[index]? 'active': ''}`} key={index}>
               <h2
                 className={`md:text-lg text-base py-[10px] px-3 md:p-5 bg-[#d4dee7] rounded-[20px] text-{#222222} cursor-pointer flex justify-between md:items-center ${
                     dropdownStates[index] ? 'active' : ''

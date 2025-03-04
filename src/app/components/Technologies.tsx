@@ -12,11 +12,11 @@ const Technologies = () => {
     {id: 6, image: '/assets/nodejs.png', title: "NodeJs"},
     {id: 7, image: '/assets/mongodb.png', title: "Mongo db"},
     {id: 8, image: '/assets/Angular.png', title: "Angular"},
-    {id: 4, image: '/assets/React-icon.png', title: "React Native"},
-    {id: 9, image: '/assets/figma.png', title: "FIGMA"},
-    {id: 10, image: '/assets/postman.png', title: "Postman"},
-    {id: 11, image: '/assets/AWS.png', title: "AWS"},
-    {id: 12, image: '/assets/github.png', title: "Github"},
+    {id: 9, image: '/assets/React-icon.png', title: "React Native"},
+    {id: 10, image: '/assets/figma.png', title: "FIGMA"},
+    {id: 11, image: '/assets/postman.png', title: "Postman"},
+    {id: 12, image: '/assets/AWS.png', title: "AWS"},
+    {id: 13, image: '/assets/github.png', title: "Github"},
   
   ]
   return (
