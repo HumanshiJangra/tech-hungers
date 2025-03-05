@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="px-[9px] mt-[40px] lg:mt-[80px]">
+    <footer className="px-[9px] mt-[40px] ">
       <div className="rounded-t-[20px] bg-[#d4dee7] pt-[40px] md:pt-[70px] ">
         <div className="footer-top container flex flex-wrap lg:flex-nowrap !pb-[60px] ">
           <div className="w-[100%] md:w-[50%] lg:w-[35%]">

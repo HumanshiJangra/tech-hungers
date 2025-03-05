@@ -71,7 +71,18 @@ export default function Home() {
     <Services/>
     <Industries/>
     <FAQ/>
-    <Contact />
+    {/* <Contact /> */}
+    <div className="py-10">
+      <div className="max-w-[702px] w-full mx-auto text-center ">
+        <h3 className="text-[#222222] font-bold ">Let’s start a new journey</h3>
+        <h2 className="heading-h2 my-4 leading-[normal] ">Are you ready for a better, more productive business?</h2>
+        <p className="text-lg mb-5 text-[#222222]  ">Stop worrying about technology problems. Focus on your business.
+        Let us provide the support you deserve.</p>
+        <div>
+          <Link href='/contact' className="button">Contact us Now</Link>
+        </div>
+      </div>
+    </div>
     </div>
   );
 }
