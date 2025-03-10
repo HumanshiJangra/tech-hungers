@@ -21,17 +21,16 @@
   }
 }
 .container {
-  max-width: 1400px;
+  max-width: 1300px;
   padding: 0 30px;
   margin: 0 auto;
 }
 body {
-  background: white;
+  background: #16172b;
   line-height: normal;
-  color: #222222;
-  background-color: #f4f4f4;
+  color: #fff;
   /* font-family: var(--font-geist-mono); */
-  font-family: var(--font-geist-sans);
+  font-family: var(--font-nunito);
 }
 .nav-menu-list {
   color: white;
@@ -43,7 +42,7 @@ body {
   fill: white;
 }
 .color-blue {
-  color: #4480bd;
+  color: #212542;
 }
 button {
   cursor: pointer;
@@ -68,7 +67,7 @@ button {
 }
 .heading-h2 {
   font-size: 40px;
-  color: #4480bd;
+  color: #fff;
   font-weight: 700;
 }
 .contact-section label {

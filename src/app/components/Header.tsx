@@ -24,7 +24,7 @@ const Header = () => {
   };
 
   return (
-    <header className=" bg-[#4480bd]  ">
+    <header className=" bg-[#16172b]  ">
       <div className="container ">
         <div className="nav-container flex items-center justify-between py-3 ">
           <div className="nav_logo">
@@ -65,7 +65,7 @@ const Header = () => {
             <li>
               <Link
                 href="/contact"
-                className="nav-menu-list lg:!inline-block lg:text-sm lg:!text-[#4480bd] lg:bg-[#fff] rounded-[30px] lg:!px-[30px] !py-[13px]"
+                className="nav-menu-list lg:!inline-block lg:text-sm lg:!text-[#16172b] lg:bg-[#fff] rounded-[30px] lg:!px-[30px] !py-[13px]"
               >
                 Contact
               </Link>

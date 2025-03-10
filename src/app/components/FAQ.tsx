@@ -50,27 +50,28 @@ const FAQ: React.FC = () => {
     <div className=' md:py-[40px]'>
     <div className="about-dropdown container">
       <div className=''>
+        <h3 className="mb-3 text-lg text-center text-[#99a5ff] ">Clients Questions</h3>
         <h2 className='heading-h2 text-center mb-3 md:mb-10'>Frequently Asked Questions</h2>
       </div>
       <div className="">
         <div className="">
           {faqData.map((dropdown, index) => (
-            <div className={`md:mb-[10px] mb-3 bg-[#d4dee7] rounded-[20px] ${dropdownStates[index]? 'active': ''}`} key={index}>
+            <div className={`md:mb-[10px] border border-[#232746] mb-3 bg-[radial-gradient(at_top_left,_#232746_0%,_#15172a_100%)] rounded-[20px] ${dropdownStates[index]? 'active': ''}`} key={index}>
               <h2
-                className={`md:text-lg text-base py-[10px] px-3 md:p-5 bg-[#d4dee7] rounded-[20px] text-{#222222} cursor-pointer flex justify-between md:items-center ${
+                className={`md:text-lg text-base py-[10px] px-3 md:p-5  rounded-[20px] text-{#222222} cursor-pointer flex justify-between md:items-center ${
                     dropdownStates[index] ? 'active' : ''
                   }`}
                 onClick={() => toggleDropdown(index)}
               >
                 <span className='flex md:items-center gap-[10px] md:gap-5'> {dropdown.title}</span>
-                <span className='drop mt-1 md:mt-0'><DropDown /></span>
+                <span className='text-2xl leading-[normal] '>{dropdownStates[index] ? '-' : '+'}</span>
               </h2>
               <div
                 className={`transition-max-height duration-300 ease-in-out overflow-hidden ${
                   dropdownStates[index] ? 'max-h-screen' : 'max-h-0'
                 }`}
               >
-                <p className='text-base md:leading-7 mt-3 md:mt-5 text-[#686C78] px-3 pb-[20px] '>{dropdown.content}</p>
+                <p className='text-base md:leading-7 mt-3 md:mt-5 text-[#cacfea] px-5 pb-[20px] '>{dropdown.content}</p>
               </div>
             </div>
           ))}

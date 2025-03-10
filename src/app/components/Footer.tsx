@@ -113,7 +113,7 @@ const Footer: React.FC = () => {
             </form> */}
           </div>
         </div>
-        <div className="copyright pt-[31px] pb-[20.5px] px-[15px] bg-[#4480bd] mx-[15px] rounded-t-[20px] text-center gap-2 justify-center flex flex-wrap lg:flex-nowrap items-center md:justify-between md:px-[40px] lg:px-[70px] md:mx-[32px]">
+        <div className="copyright pt-[31px] pb-[20.5px] px-[15px] bg-[#15172a] mx-[15px] rounded-t-[20px] text-center gap-2 justify-center flex flex-wrap lg:flex-nowrap items-center md:justify-between md:px-[40px] lg:px-[70px] md:mx-[32px]">
           <Link href="/" className="nav-logo-link">
             <Logo className="w-[250px] h-[50px] " />
           </Link>

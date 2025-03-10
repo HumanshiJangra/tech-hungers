@@ -36,11 +36,11 @@ const Technologies = () => {
   return (
         <div className="container">
           <h2 className="heading-h2 text-center mb-10">Our Technology Spark</h2>
-          <div className="tabs flex flex-wrap justify-between gap-[5px] bg-[#4480bd] p-2 rounded-[47px] mb-10 ">
+          <div className="tabs flex flex-wrap justify-between gap-[5px] bg-[#353c71] p-2 rounded-[47px] mb-10 ">
           {Object.keys(technology).map((tab) => (
               <button
                 key={tab}
-                className={`tab-button ${activeTab === tab ? 'active text-orange bg-white ' : 'text-white   '} rounded-[34px] px-[16px] py-[10px] w-[calc(16.66%-5px)] `}
+                className={`tab-button ${activeTab === tab ? 'active text-[#232746] bg-white ' : 'text-white   '} rounded-[34px] px-[16px] py-[10px] w-[calc(16.66%-5px)] `}
                 onClick={() => setActiveTab(tab)}
               >{tab}</button>
             ))}
