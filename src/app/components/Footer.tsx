@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
       <div className="rounded-t-[20px] bg-[#cacfea] pt-[40px] md:pt-[70px] ">
         <div className="footer-top container flex flex-wrap lg:flex-nowrap !pb-[60px] ">
           <div className="w-[100%] md:w-[50%] lg:w-[40%]">
-            <h2 className="text-[#15172a] text-xl font-semibold mb-3 md:mb-7">
+            <h2 className="text-[#15172a] text-xl font-bold mb-3 md:mb-7">
               Explore
             </h2>
             <ul className="p-0 m-0 flex flex-wrap gap-y-2 md:gap-y-5">
@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
           <div className="w-[100%] pt-[20px] md:pt-0 md:w-[50%] lg:w-[35%]">
-            <h2 className="text-[#15172a] text-xl font-semibold mb-3 md:mb-7">
+            <h2 className="text-[#15172a] text-xl font-bold mb-3 md:mb-7">
               Visit us
             </h2>
             <p className="text-[#212f33] text-base mb-2 md:mb-5">
@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
             <p className="text-[#212f33] text-base ">techhungers@gmail.com</p>
           </div>
           <div className="w-[100%] pt-[20px] lg:w-[25%] lg:pt-0">
-            <h2 className="text-[#15172a] text-xl font-semibold mb-3 md:mb-7">
+            <h2 className="text-[#15172a] text-xl font-bold mb-3 md:mb-7">
               Social
             </h2>
             <div className="flex items-center gap-[15px]">
