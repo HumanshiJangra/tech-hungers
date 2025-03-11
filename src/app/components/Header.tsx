@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Logo, ToggleClose, ToggleIcon } from "@/utils/svgIcons";
+import Button from "./Button";
 
 const Header = () => {
   const [isToggleOpen, setIsToggleOpen] = useState(false);
@@ -24,7 +25,7 @@ const Header = () => {
   };
 
   return (
-    <header className=" bg-[#16172b] border-b border-[#FFFFFF24]  ">
+    <header className=" bg-[#16172b] bg-[radial-gradient(at_top_left,_#15172a_0%,_#212542_100%)]  border-b border-[#FFFFFF24]  ">
       <div className="container ">
         <div className="nav-container flex items-center justify-between py-3 ">
           <div className="nav_logo">
@@ -63,12 +64,11 @@ const Header = () => {
               </Link>
             </li>
             <li>
+              {/* <Button href="/" text="Contact"/> */}
               <Link
                 href="/contact"
                 className="nav-menu-list lg:!inline-block lg:text-sm lg:!text-[#16172b] lg:bg-[#fff] rounded-[30px] lg:!px-[30px] !py-[13px]"
-              >
-                Contact
-              </Link>
+              >Contact</Link>
             </li>
             <li className="md:hidden mt-4" onClick={() => handleLogout(true)}>
               <p className="text-white cursor-pointer text-sm bg-[#283C63] rounded-[30px] px-[30px] py-[13px]">

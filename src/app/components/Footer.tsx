@@ -5,9 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 // import { toast } from "sonner";
 // import { axiosInstance } from "@/utils/axios";
-import { Facebook, Instagram, Linkedin, Logo, TopButton } from "@/utils/svgIcons";
-import { FacebookIcon } from "lucide-react";
-
+import { Facebook, Instagram, Logo, TopButton, Linkedin } from "@/utils/svgIcons";
 const Footer: React.FC = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -40,14 +38,14 @@ const Footer: React.FC = () => {
 
   return (
     <footer className="px-[9px] mt-[40px] ">
-      <div className="rounded-t-[20px] bg-[#d4dee7] pt-[40px] md:pt-[70px] ">
+      <div className="rounded-t-[20px] bg-[#cacfea] pt-[40px] md:pt-[70px] ">
         <div className="footer-top container flex flex-wrap lg:flex-nowrap !pb-[60px] ">
-          <div className="w-[100%] md:w-[50%] lg:w-[35%]">
-            <h2 className="text-[#4480bd] text-xl font-semibold mb-3 md:mb-7">
+          <div className="w-[100%] md:w-[50%] lg:w-[40%]">
+            <h2 className="text-[#15172a] text-xl font-semibold mb-3 md:mb-7">
               Explore
             </h2>
             <ul className="p-0 m-0 flex flex-wrap gap-y-2 md:gap-y-5">
-              <li className="w-full">
+              <li className="w-1/2">
                 <Link href="/" className="text-[#212f33] text-base ">
                   Home
                 </Link>
@@ -57,16 +55,16 @@ const Footer: React.FC = () => {
                   About Us
                 </Link>
               </li>
-              {/* <li className="w-1/2">
+              <li className="w-1/2">
                 <Link href="/#use-case" className="text-[#212f33] text-base ">
-                  Use Cases
+                  Services
                 </Link>
               </li> 
               <li className="w-1/2">
                 <Link href="/pricing" className="text-[#212f33] text-base ">
-                  Pricing
+                  FAQ
                 </Link>
-              </li> */}
+              </li>
               <li className="w-full">
                 <Link href="/#contact-us" className="text-[#212f33] text-base ">
                   Contact Us
@@ -75,23 +73,23 @@ const Footer: React.FC = () => {
             </ul>
           </div>
           <div className="w-[100%] pt-[20px] md:pt-0 md:w-[50%] lg:w-[35%]">
-            <h2 className="text-[#4480bd] text-xl font-semibold mb-3 md:mb-7">
+            <h2 className="text-[#15172a] text-xl font-semibold mb-3 md:mb-7">
               Visit us
             </h2>
             <p className="text-[#212f33] text-base mb-2 md:mb-5">
             Sector 74, Mohali,
             </p>
             <p className="text-[#212f33] text-base mb-2 md:mb-5">
-              (+49) 1512 8950 793
+            +91 8699882341
             </p>
             <p className="text-[#212f33] text-base ">techhungers@gmail.com</p>
           </div>
-          <div className="w-[100%] pt-[20px] lg:w-[35%] lg:pt-0">
-            <h2 className="text-[#4480bd] text-xl font-semibold mb-3 md:mb-7">
+          <div className="w-[100%] pt-[20px] lg:w-[25%] lg:pt-0">
+            <h2 className="text-[#15172a] text-xl font-semibold mb-3 md:mb-7">
               Social
             </h2>
             <div className="flex items-center gap-[15px]">
-              <Facebook /> <Instagram /> <Linkedin />
+          <Facebook/> <Instagram/> <Linkedin/>
             </div>
             {/* <p className="text-[#212f33] text-base mb-2 md:mb-[17px]">
               Enter your email address to get the latest updates.
@@ -113,7 +111,7 @@ const Footer: React.FC = () => {
             </form> */}
           </div>
         </div>
-        <div className="copyright pt-[31px] pb-[20.5px] px-[15px] bg-[#15172a] mx-[15px] rounded-t-[20px] text-center gap-2 justify-center flex flex-wrap lg:flex-nowrap items-center md:justify-between md:px-[40px] lg:px-[70px] md:mx-[32px]">
+        <div className="copyright pt-[31px] pb-[20.5px] px-[15px] bg-[radial-gradient(at_top_left,_#15172a_0%,_#212542_100%)] mx-[15px] rounded-t-[20px] text-center gap-2 justify-center flex flex-wrap lg:flex-nowrap items-center md:justify-between md:px-[40px] lg:px-[70px] md:mx-[32px]">
           <Link href="/" className="nav-logo-link">
             <Logo className="w-[250px] h-[50px] " />
           </Link>

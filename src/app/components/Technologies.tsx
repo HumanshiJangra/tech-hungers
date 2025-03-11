@@ -36,7 +36,7 @@ const Technologies = () => {
   return (
         <div className="container">
           <h2 className="heading-h2 text-center mb-10">Our Technology Spark</h2>
-          <div className="tabs flex flex-wrap justify-between gap-[5px] bg-[#353c71] p-2 rounded-[47px] mb-10 ">
+          <div className="tabs flex flex-wrap justify-between gap-[5px] bg-[radial-gradient(at_top_left,_#232746_0%,_#15172a_100%)] border border-[#232746] p-2 rounded-[47px] mb-10 ">
           {Object.keys(technology).map((tab) => (
               <button
                 key={tab}

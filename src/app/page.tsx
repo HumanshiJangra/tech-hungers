@@ -1,7 +1,7 @@
 import { FileCheck2, Globe, Laptop } from "lucide-react";
 import Link from "next/link";
 import * as React from "react";
-import laptop from "@/assets/images/laptop.jpg";
+import laptop from "@/assets/images/demo.png";
 import Image from "next/image";
 import Contact from "./components/Contact";
 import Marquee from "react-fast-marquee";
@@ -19,30 +19,33 @@ export default function Home() {
       id: 1,
       title: "We are global.",
       subtitle: `No matter where you are, we've got you covered.`,
-      icons: <Globe width={100} height={100} color="#4480bd" />,
+      icons: <Globe width={80} height={80}  />,
     },
     {id: 2, title: "Expertise & Innovation", subtitle: " Our team stays ahead with the latest technologies, ensuring your website, app, and marketing strategies are innovative and future-ready.",
-    icons: <Globe width={100} height={100} color="#4480bd" />
+    icons: <Globe width={80} height={80}  />
     },
 
     {
       id: 3,
       title: "We value our clients.",
       subtitle: "Virtual assistance. Talk to us about any concerns, 24/7.",
-      icons: <FileCheck2 width={100} height={100} color="#4480bd" />,
+      icons: <FileCheck2 width={80} height={80} />,
     },
     {
       id: 4,
       title: "We use top-rate systems.",
       subtitle: "Easy peasy UI. Our interface is simple and easy to use.",
-      icons: <Laptop width={100} height={100} color="#4480bd" />,
+      icons: <Laptop width={80} height={80} />,
     },
   ];
 
   return (
     <div>
       <div className="banner z-[1] relative py-[80px] bg-[url(../assets/images/img2.jpg)] bg-no-repeat bg-cover bg-center  ">
-        <div className="container">
+      <div className="bg-[radial-gradient(at_top_left,_#15172a_0%,_#15172aed_100%)] opacity-[0.9] absolute top-0 left-0 w-full h-full ">
+
+      </div>
+        <div className="container relative z-10">
           <h1 className="text-[60px] font-bold text-white text-center capitalize    ">
             Innovative IT Solutions <br />
             for a Digital World
@@ -60,17 +63,27 @@ export default function Home() {
       </div>
       <div className="py-[80px]">
         <div className="container">
-          <h2 className="heading-h2 text-center mb-10 ">Why Choose Us</h2>
-          <div className="grid grid-cols-4 gap-5">
+          <div className="grid grid-cols-2 items-center gap-5">
+            <div className="h-full relative">
+              <div className="">
+                <Image src={laptop} alt="dvdg" height={400} width={400} className="object- aspect-square mx-auto" />
+              <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-[-1] w-[520px] h-[520px] bg-[radial-gradient(at_top_left,_#353C71_0%,_#15172a_100%)] rounded-full "></div>
+              </div>
+            </div>
+          <div>
+          <h2 className="heading-h2 mb-5">Why Choose Us</h2>
             {content.map((item, index) => (
-              <div key={index} className="text-center border-[#4480bd] rounded-lg border py-[30px] px-5 ">
-                <h3 className="text-2xl color-blue ">{item.title}</h3>
-                <div className="flex justify-center my-8">{item.icons}</div>
-                <p className="text-[#222222] max-w-[220px] mx-auto ">
+              <div key={index} className="flex items-center gap-5 mb-5 ">
+                <div className="flex justify-center ">{item.icons}</div>
+                <div>
+                <h3 className="text-2xl text-white mb-2 ">{item.title}</h3>
+                <p className="text-[#cacfea]  ">
                   {item.subtitle}
                 </p>
+                </div>
               </div>
             ))}
+            </div>
           </div>
         </div>
       </div>

@@ -71,7 +71,7 @@ const FAQ: React.FC = () => {
                   dropdownStates[index] ? 'max-h-screen' : 'max-h-0'
                 }`}
               >
-                <p className='text-base md:leading-7 mt-3 md:mt-5 text-[#cacfea] px-5 pb-[20px] '>{dropdown.content}</p>
+                <p className='text-base md:leading-7 text-[#cacfea] px-5 pb-[20px] '>{dropdown.content}</p>
               </div>
             </div>
           ))}
