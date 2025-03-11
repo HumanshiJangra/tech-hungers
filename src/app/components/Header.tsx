@@ -24,7 +24,7 @@ const Header = () => {
   };
 
   return (
-    <header className=" bg-[#16172b]  ">
+    <header className=" bg-[#16172b] border-b border-[#FFFFFF24]  ">
       <div className="container ">
         <div className="nav-container flex items-center justify-between py-3 ">
           <div className="nav_logo">
