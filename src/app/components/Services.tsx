@@ -16,9 +16,9 @@ import { MoveRight } from 'lucide-react';
     { id: 4, title: "Visual Identity", subtitle: "Vision to Visual: Design a Brand Identity That represents your business.", image: image2 },
     { id: 5, title: "Consultation", subtitle: "Your Ideas & Our Expertise: Get Consultation for Growth from Tech Hungers.", image: image3 },
   ];
-  return (
+  return (  
     <div className="py-[40px] ">
-    <div className="container">
+    <div className="container"> 
       <div className="text-center ">
       <h3 className="mb-3 text-[#99a5ff] ">What We OFFER</h3>
         <h2 className="heading-h2">Excellent It Services</h2>
