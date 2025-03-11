@@ -61,7 +61,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="py-[80px]">
+      <div className="py-[100px]">
         <div className="container">
           <div className="grid grid-cols-2 items-center gap-5">
             <div className="h-full relative">

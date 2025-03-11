@@ -48,7 +48,7 @@ const Technologies = () => {
           <div className="tab-content flex flex-wrap gap-6 pb-10">
           {technology[activeTab] ? (
             technology[activeTab].map((tech: any) => (
-              <div key={tech.id} className="tech-item flex flex-col items-center">
+              <div key={tech.id} className="tech-item flex flex-col justify-between items-center">
                 <Image src={tech.image} alt={tech.title} width={100} height={100} />
                 <p className="text-center mt-2">{tech.title}</p>
               </div>
