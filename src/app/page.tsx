@@ -41,11 +41,10 @@ export default function Home() {
 
   return (
     <div>
-      <div className="banner z-[1] relative py-[80px] bg-[url(../assets/images/img2.jpg)] bg-no-repeat bg-cover bg-center  ">
+      <div className="banner h-[80vh] z-[1] relative py-[80px] bg-[url(../assets/images/img2.jpg)] bg-no-repeat bg-cover bg-center  ">
       <div className="bg-[radial-gradient(at_top_left,_#15172a_0%,_#15172aed_100%)] opacity-[0.9] absolute top-0 left-0 w-full h-full ">
-
       </div>
-        <div className="container relative z-10">
+        <div className="container relative z-10 h-full flex flex-col justify-center ">
           <h1 className="text-[60px] font-bold text-white text-center capitalize    ">
             Innovative IT Solutions <br />
             for a Digital World
