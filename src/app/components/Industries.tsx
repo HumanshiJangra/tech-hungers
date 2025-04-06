@@ -20,7 +20,7 @@ const Industries = () => {
         <div>
           <div className='grid grid-cols-2 gap-5'>
             {industry.map((item) => (
-              <div key={item.id} className='text-center border-2 border-[#232746] rounded-2xl  py-5 px-8 '>
+              <div key={item.id} className='text-center border-2 border-[#232746] rounded-2xl  py-5 px-8 hover:border-[#535989]'>
                  <div className="flex justify-center">{item.icon}</div>
                 <div>
                   <h3 className='text-2xl text-[#99a5ff] mt-3 mb-2'>{item.name}</h3>
