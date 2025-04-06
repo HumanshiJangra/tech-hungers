@@ -67,7 +67,7 @@ const Contact = () => {
             Call Us
           </h3>
           <p className="text-[#222222] text-xl font-semibold mb-7">
-            (+49) 1512 8950 793
+            (+91) 86998 82341
           </p>
           <h3 className="text-[#4480bd] text-sm mb-[10px] uppercase">
             Mail Us
