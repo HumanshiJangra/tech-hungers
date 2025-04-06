@@ -11,6 +11,7 @@ import Technologies from "./components/Technologies";
 import Industries from "./components/Industries";
 import { title } from "process";
 import Button from "./components/Button";
+import VideoPlayer from "./components/VideoPlayer";
 
 
 export default function Home() {
@@ -41,17 +42,22 @@ export default function Home() {
 
   return (
     <div>
-      <div className="banner h-[80vh] z-[1] relative py-[80px] bg-[url(../assets/images/img2.jpg)] bg-no-repeat bg-cover bg-center  ">
-      <div className="bg-[radial-gradient(at_top_left,_#15172a_0%,_#15172aed_100%)] opacity-[0.9] absolute top-0 left-0 w-full h-full ">
+      <div className="relative  ">
+      <div className="w-full">
+        <VideoPlayer url='/assets/video/video.mp4'/>
+        </div>
+      <div className="bg-[radial-gradient(at_top_left,_#15172a_0%,_#15172aed_100%)] opacity-[0.7] absolute top-0 left-0 w-full h-full ">
       </div>
-        <div className="container relative z-10 h-full flex flex-col justify-center ">
+        <div className="container  absolute top-0 left-0 right-0 bottom-0 z-10 h-full flex flex-col justify-center ">
           <h1 className="text-[60px] font-bold text-white text-center capitalize    ">
             Innovative IT Solutions <br />
             for a Digital World
           </h1>
-          <p className="text-center text-lg text-white mt-3">
-            Let’s Build Something Great Together
+          <p className="text-center text-xl text-white mt-3">🔍 Smarter Decisions | ⚙️ Intelligent Automation | 🚀 Future-Focused Tech 
           </p>
+          {/* <p className="text-center text-lg text-white mt-3">
+          👉 Let’s Build Something Great Together
+          </p> */}
           <div className="flex justify-center mt-8">
             <Button text="Learn More"/>
             {/* <Link href="/" className="button">
