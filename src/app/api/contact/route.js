@@ -57,8 +57,8 @@ export async function POST(req) {
       
 
     // Send the email using the transporter
-     transporter.sendMail(mailOptions);
-     transporter.sendMail(mailOptionsforSender);
+    await transporter.sendMail(mailOptions);
+    await transporter.sendMail(mailOptionsforSender);
 
     // Respond back to the client with a success message
     return NextResponse.json({ success: 'Message received and email sent!' }, { status: 200 });
