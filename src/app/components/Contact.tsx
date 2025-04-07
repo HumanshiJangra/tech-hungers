@@ -82,7 +82,7 @@ const Contact = () => {
       <div className="grid pt-10 gap-10 items-center lg:grid-cols-[minmax(0,_5fr)_minmax(0,_7fr)]">
         <div className="rounded-[20px] bg-[#d4dee7] px-[30px] py-7 ">
           <h2 className="text-[28px] text-[#4480bd] font-[700]  mb-[20px] md:mb-10 md:text-[48px]">
-            Contact Us
+            Contact Us 
           </h2>
           <h3 className="text-[#4480bd] text-sm mb-[10px] uppercase">
             Location
